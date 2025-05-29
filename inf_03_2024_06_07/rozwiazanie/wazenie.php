@@ -29,11 +29,11 @@ $db = new mysqli("localhost", "root", "", "wazenietirow");
         <ol>
             <?php
             $query_1 = "SELECT ulica FROM lokalizacje";
-            $streets = $db->query($query_1)->fetch_all(MYSQLI_NUM);
-            foreach ($streets as $street):
+            $streets_result = $db->query($query_1);
+            while ($street = $streets_result->fetch_row()):
                 ?>
                 <li>ulica <?= $street[0] ?></li>
-            <?php endforeach; ?>
+            <?php endwhile; ?>
         </ol>
 
         <h2>Kontakt</h2>
@@ -58,8 +58,8 @@ $db = new mysqli("localhost", "root", "", "wazenietirow");
                     FROM wagi w
                     JOIN lokalizacje l ON w.lokalizacje_id = l.id
                     WHERE w.waga > 5";
-            $alerts = $db->query($query_2)->fetch_all(MYSQLI_NUM);
-            foreach ($alerts as $alert):
+            $alerts_result = $db->query($query_2);
+            while ($alert = $alerts_result->fetch_row()):
                 ?>
                 <tr>
                     <td><?= $alert[0] ?></td>
@@ -68,12 +68,12 @@ $db = new mysqli("localhost", "root", "", "wazenietirow");
                     <td><?= $alert[3] ?></td>
                     <td><?= $alert[4] ?></td>
                 </tr>
-            <?php endforeach; ?>
+            <?php endwhile; ?>
         </table>
 
         <?php
         $query_3 = "INSERT INTO wagi (lokalizacje_id, waga, rejestracja, dzien, czas)
-                VALUES (5, FLOOR(1 + RAND() * 10), 'DW12345', CURRENT_DATE, CURRENT_TIME)";
+            VALUES (5, FLOOR(1 + RAND() * 10), 'DW12345', CURRENT_DATE, CURRENT_TIME)";
         $db->query($query_3);
         ?>
 
