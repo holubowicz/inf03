@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styl.css">
+    <script>
+        const randomResponses = [
+            "Świetnie!",
+            "Kto gra główną rolę?",
+            "Lubisz filmy Tego reżysera?",
+            "Będę 10 minut wcześniej",
+            "Może kupimy sobie popcorn?",
+            "Ja wolę Colę",
+            "Zaproszę jeszcze Grześka",
+            "Tydzień temu też byłem w kinie na Diunie",
+            "Ja funduję bilety"
+        ];
+
+        function handleSendButtonClick() {
+            const chatSection = document.getElementById("chat");
+
+            const messageInput = document.getElementById("message-input");
+            const message = messageInput.value;
+
+            if (message.length === 0) {
+                return;
+            }
+
+            messageInput.value = "";
+
+            // Message Container
+            const chatMessageElement = document.createElement("div");
+            chatMessageElement.classList.add("chat__message", "chat__message--jolka");
+
+            // Message Avatar
+            const chatMessageImageElement = document.createElement("img");
+            chatMessageImageElement.setAttribute("src", "Jolka.jpg");
+            chatMessageElement.setAttribute("alt", "Jolanta Nowak");
+            chatMessageElement.appendChild(chatMessageImageElement);
+
+            // Message Content
+            const chatMessageParagraphElement = document.createElement("p");
+            chatMessageParagraphElement.textContent = message;
+            chatMessageElement.appendChild(chatMessageParagraphElement);
+
+            chatSection.appendChild(chatMessageElement);
+            chatMessageElement.scrollIntoView();
+        }
+
+        function handleGenerateRandomResponseButtonClick() {
+            const chatSection = document.getElementById("chat");
+
+            const randomIndex = Math.floor(Math.random() * 9);
+            const message = randomResponses[randomIndex];
+
+            // Message Container
+            const chatMessageElement = document.createElement("div");
+            chatMessageElement.classList.add("chat__message", "chat__message--krzysiek");
+
+            // Message Avatar
+            const chatMessageImageElement = document.createElement("img");
+            chatMessageImageElement.setAttribute("src", "Krzysiek.jpg");
+            chatMessageElement.setAttribute("alt", "Krzysztof Łukasiński");
+            chatMessageElement.appendChild(chatMessageImageElement);
+
+            // Message Content
+            const chatMessageParagraphElement = document.createElement("p");
+            chatMessageParagraphElement.textContent = message;
+            chatMessageElement.appendChild(chatMessageParagraphElement);
+
+            chatSection.appendChild(chatMessageElement);
+            chatMessageElement.scrollIntoView();
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h2>Chat</h2>
+    </header>
+
+    <aside>
+        <h3>Chaty</h3>
+
+        <ul>
+            <li>Ogólny</li>
+            <li>
+                Tematyczne
+
+                <ol>
+                    <li>Turystyczny</li>
+                    <li>Żeglarski</li>
+                    <li>Filatelistyczny</li>
+                    <li>Hodowla zwierzątek domowych</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h3>Uczstnicy</h3>
+
+        <p>Jolanta Nowak</p>
+        <img src="Jolka.jpg" alt="Jolanta Nowak">
+
+        <p>Krzysztof Łukasiński</p>
+        <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+    </aside>
+
+    <main>
+        <section id="chat">
+            <div class="chat__message chat__message--jolka">
+                <img src="Jolka.jpg" alt="Jolanta Nowak">
+
+                <p>Cześć idziesz jutro do kina?</p>
+            </div>
+
+            <div class="chat__message chat__message--krzysiek">
+                <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+
+                <p>Tak! A ty?</p>
+            </div>
+        </section>
+
+        Wpisz wiadomość:
+        <input id="message-input" type="text">
+        <button onclick="handleSendButtonClick()">
+            Wyślij
+        </button>
+
+        <br>
+
+        <button onclick="handleGenerateRandomResponseButtonClick()">
+            Generuj losową odpowiedź
+        </button>
+    </main>
+
+    <footer>
+        <h5>Chat wykonał: 00000000000</h5>
+    </footer>
+</body>
+
+</html>

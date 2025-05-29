@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Georgia;
+}
+
+header div {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+
+nav {
+    background-color: navy;
+    padding: 20px;
+    clear: left;
+}
+
+.option__label {
+    color: silver;
+    margin: 50px;
+}
+
+.option__label:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.main-content {
+    background-color: azure;
+    height: 550px;
+    float: left;
+}
+
+.main-content--left {
+    width: 70%;
+}
+
+.main-content--right {
+    width: 30%;
+}
+
+.main-content--right > img {
+    width: 90%;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    clear: left;
+}
+
+table {
+    border: solid 1px navy;
+    margin: auto;
+    width: 70%;
+}
+
+tr:hover {
+    background-color: skyblue;
+}

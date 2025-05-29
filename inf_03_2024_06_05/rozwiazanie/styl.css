@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Roboto, serif;
+}
+
+header {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    padding: 10px;
+}
+
+.main-content__1 {
+    background-color: mistyrose;
+    height: 300px;
+    padding: 10px;
+    margin: 10px 50px;
+    border: solid 1px crimson;
+}
+
+.main-content__1 img {
+    float: left;
+    height: 100%;
+}
+
+.main-content__2-3 {
+    clear: left;
+}
+
+.main-content__2-3 article {
+    background-color: snow;
+    height: 450px;
+    width: 21%;
+    margin: 1%;
+    text-align: center;
+    border: solid 1px crimson;
+    float: left;
+}
+
+footer {
+    background-color: crimson;
+    color: white;
+    clear: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+h4 {
+    font-size: 180%;
+    text-align: center;
+    color: crimson;
+}
+
+a {
+    color: white;
+}

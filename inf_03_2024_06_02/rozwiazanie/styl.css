@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    font-family: Garamond;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+    float: left;
+}
+
+main {
+    width: 80%;
+    height: 600px;
+    float: left;
+}
+
+aside {
+    background-color: coral;
+    width: 20%;
+    height: 680px;
+    float: right;
+}
+
+footer {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+img {
+    border-radius: 50%;
+    padding-inline: 10px;
+}
+
+#chat {
+    border: solid 1px tomato;
+    margin: 15px;
+    height: 470px;
+    overflow: scroll;
+}
+
+.chat__message {
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    margin: 2%;
+    padding: 3px;
+}
+
+.chat__message--jolka {
+    background-color: #eee;
+}
+
+.chat__message--jolka img {
+    float: left;
+}
+
+.chat__message--krzysiek {
+    background-color: #ccc;
+    text-align: right;
+}
+
+.chat__message--krzysiek img {
+    float: right;
+}
+
+button {
+    background-color: tomato;
+    border: solid 1px darkred;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 500px;
+}
