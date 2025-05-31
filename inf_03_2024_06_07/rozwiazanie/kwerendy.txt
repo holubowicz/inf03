@@ -1,7 +1,7 @@
 -- 1
 UPDATE wagi
 SET
-	dzien = CURRENT_DATE,
+    dzien = CURRENT_DATE,
     czas = CURRENT_TIME
 WHERE lokalizacje_id IN (2, 3, 4);
 
@@ -29,7 +29,7 @@ VALUES (
 
 -- 4
 SELECT
-	w.rejestracja,
+    w.rejestracja,
     w.waga,
     w.dzien,
     w.czas,

@@ -5,7 +5,7 @@ FROM wodowskazy;
 
 -- 2
 SELECT
-	w.nazwa,
+    w.nazwa,
     w.rzeka,
     w.stanOstrzegawczy,
     w.stanAlarmowy,
@@ -17,7 +17,7 @@ WHERE p.dataPomiaru = '2022-05-05';
 
 -- 3
 SELECT
-	w.nazwa,
+    w.nazwa,
     w.rzeka,
     w.stanOstrzegawczy,
     w.stanAlarmowy,

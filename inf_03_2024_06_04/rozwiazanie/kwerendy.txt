@@ -6,7 +6,7 @@ WHERE polubienia >= 100;
 
 -- 2
 SELECT
-	z.plik,
+    z.plik,
     z.tytul,
     z.polubienia,
     a.imie,

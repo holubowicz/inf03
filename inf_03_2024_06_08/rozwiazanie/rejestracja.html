@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep - rejestracja</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <aside>
+        <img src="obraz.png" alt="promocje">
+
+        <h2>Sprawdź promocje</h2>
+
+        <table>
+            <tr>
+                <th>co?</th>
+                <th>ile taniej?</th>
+            </tr>
+            <tr>
+                <td>ubrania</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td>buty</td>
+                <td>25%</td>
+            </tr>
+        </table>
+    </aside>
+
+    <header>
+        <h1>Zarejestruj się w sklepie</h1>
+    </header>
+
+    <main>
+        <button>
+            Klient
+        </button>
+
+        <button>
+            Adres
+        </button>
+
+        <button>
+            Kontakt
+        </button>
+
+        <div class="register-section">
+            <p>Imię</p>
+            <input type="text" placeholder="Wpisz dane...">
+
+            <p>Nazwisko</p>
+            <input type="text">
+
+            <p>Data urodzenia</p>
+            <input type="date">
+        </div>
+
+        <div class="register-section">
+            <p>Ulica</p>
+            <input type="text">
+
+            <p>Numer</p>
+            <input type="number">
+
+            <p>Miasto</p>
+            <input type="text">
+        </div>
+
+        <div class="register-section">
+            <p>Numer komórkowy</p>
+            <input type="tel">
+            <br>
+
+            <input type="checkbox">
+            Akceptuję RODO
+            <br>
+
+            <button id="submit-button">
+                Zatwierdź dane
+            </button>
+        </div>
+    </main>
+
+    <div id="progressbar">
+        <div id="progressbar__state"></div>
+    </div>
+
+    <footer>
+        <h4>
+            Rejestrację do sklepu wykonał: 00000000000
+        </h4>
+    </footer>
+
+    <script>
+        const navigationButtonElements = document.querySelectorAll("main > button");
+        const registerSectionElements = document.querySelectorAll(".register-section");
+        const inputElements = document.querySelectorAll("input");
+        const submitButtonElement = document.getElementById("submit-button");
+        const progressStateElement = document.getElementById("progressbar__state");
+
+        navigationButtonElements.forEach((element, index) =>
+            element.addEventListener("click", () => showRegisterSection(index))
+        );
+
+        inputElements.forEach(element =>
+            element.addEventListener("focusout", handleInputOnFocusOut)
+        );
+
+        submitButtonElement.addEventListener("click", submitRegister);
+
+        function showRegisterSection(sectionIndex) {
+            registerSectionElements.forEach(element => element.style.display = "none");
+            registerSectionElements[sectionIndex].style.display = "block";
+        }
+
+        function handleInputOnFocusOut() {
+            let width = parseInt(progressStateElement.style.width.slice(0, -1)) || 4;
+
+            if (width < 100) {
+                width += 12;
+            }
+
+            progressStateElement.style.width = width + "%";
+        }
+
+        function submitRegister() {
+            let message = Array.from(inputElements)
+                .map(element => element.value)
+                .join(", ");
+            console.log(message);
+        }
+    </script>
+</body>
+
+</html>

@@ -7,7 +7,7 @@ WHERE zaplacono = 0;
 
 -- 2
 SELECT
-	AVG(koszt) AS 'Średni koszt',
+    AVG(koszt) AS 'Średni koszt',
     SUM(koszt) AS 'Całkowity koszt',
     COUNT(id) AS 'Liczba uczestników'
 FROM uczestnicy;

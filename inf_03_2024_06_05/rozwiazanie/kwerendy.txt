@@ -4,7 +4,7 @@ SELECT nazwa FROM marki;
 
 -- 2
 SELECT
-	model,
+    model,
     rocznik,
     przebieg,
     paliwo,
@@ -16,7 +16,7 @@ WHERE id = 10;
 
 -- 3
 SELECT
-	m.nazwa,
+    m.nazwa,
     s.model,
     s.rocznik,
     s.cena,
@@ -29,7 +29,7 @@ LIMIT 4;
 
 -- 4
 SELECT
-	s.model,
+    s.model,
     s.cena,
     s.zdjecie
 FROM samochody s
