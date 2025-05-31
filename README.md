@@ -18,6 +18,7 @@ Zakres tematyczny INF.03 obejmuje między innymi:
 - `INF.03 2024-06-06`
 - `INF.03 2024-06-07`
 - `INF.03 2024-06-08`
+- `INF.03 2024-06-11`
 
 ---
 
