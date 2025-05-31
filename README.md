@@ -7,7 +7,7 @@ Zakres tematyczny INF.03 obejmuje między innymi:
 - Projektowanie i tworzenie stron internetowych w językach takich jak HTML, CSS, JavaScript.
 - Wykorzystywanie systemów zarządzania treścią (CMS).
 - Projektowanie i tworzenie baz danych (np. MySQL).
-- Tworzenie aplikacji webowych po stronie serwera (np. w PHP, Python).
+- Tworzenie aplikacji webowych po stronie serwera (np. w PHP).
 
 ## Wykonane Egzaminy Praktyczne
 
