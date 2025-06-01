@@ -9,16 +9,18 @@ Zakres tematyczny INF.03 obejmuje między innymi:
 - Projektowanie i tworzenie baz danych (np. MySQL).
 - Tworzenie aplikacji webowych po stronie serwera (np. w PHP).
 
-## Wykonane Egzaminy Praktyczne
+## Rozwiązania Egzaminów Praktycznych
 
-- `INF.03 2024-06-02`
-- `INF.03 2024-06-03`
-- `INF.03 2024-06-04`
-- `INF.03 2024-06-05`
-- `INF.03 2024-06-06`
-- `INF.03 2024-06-07`
-- `INF.03 2024-06-08`
-- `INF.03 2024-06-11`
+| Rok  | Miesiąc  | Wersja | Nazwa          | Język |                                         |                                                            |
+| ---- | -------- | ------ | -------------- | ----- | --------------------------------------- | ---------------------------------------------------------- |
+| 2024 | Czerwiec | 02     | Chat           | JS    | [INF.03-02-24.06-SG](inf_03_2024_06_02) | [Arkusz](inf_03_2024_06_02/inf_03_2024_06_02_SG_kolor.pdf) |
+| 2024 | Czerwiec | 03     | Stany Rzek     | PHP   | [INF.03-03-24.06-SG](inf_03_2024_06_03) | [Arkusz](inf_03_2024_06_03/inf_03_2024_06_03_SG_kolor.pdf) |
+| 2024 | Czerwiec | 04     | Galeria        | PHP   | [INF.03-04-24.06-SG](inf_03_2024_06_04) | [Arkusz](inf_03_2024_06_04/inf_03_2024_06_04_SG_kolor.pdf) |
+| 2024 | Czerwiec | 05     | Samochody      | PHP   | [INF.03-05-24.06-SG](inf_03_2024_06_05) | [Arkusz](inf_03_2024_06_05/inf_03_2024_06_05_SG_kolor.pdf) |
+| 2024 | Czerwiec | 06     | Konferencja    | JS    | [INF.03-06-24.06-SG](inf_03_2024_06_06) | [Arkusz](inf_03_2024_06_06/inf_03_2024_06_06_SG_kolor.pdf) |
+| 2024 | Czerwiec | 07     | Waga Pojazdów  | PHP   | [INF.03-07-24.06-SG](inf_03_2024_06_07) | [Arkusz](inf_03_2024_06_07/inf_03_2024_06_07_SG_kolor.pdf) |
+| 2024 | Czerwiec | 08     | Rejestracja    | JS    | [INF.03-08-24.06-SG](inf_03_2024_06_08) | [Arkusz](inf_03_2024_06_08/inf_03_2024_06_08_SG_kolor.pdf) |
+| 2024 | Czerwiec | 11     | Świnki Morskie | PHP   | [INF.03-11-24.06-SG](inf_03_2024_06_11) | [Arkusz](inf_03_2024_06_11/inf_03_2024_06_11_SG_kolor.pdf) |
 
 ---
 
