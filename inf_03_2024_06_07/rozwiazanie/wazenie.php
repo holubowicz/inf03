@@ -73,7 +73,7 @@ $db = new mysqli("localhost", "root", "", "wazenietirow");
 
         <?php
         $query_3 = "INSERT INTO wagi (lokalizacje_id, waga, rejestracja, dzien, czas)
-            VALUES (5, FLOOR(1 + RAND() * 10), 'DW12345', CURRENT_DATE, CURRENT_TIME)";
+            VALUES (5, FLOOR(1 + RAND() * 10), 'DW12345', CURRENT_DATE(), CURRENT_TIME())";
         $db->query($query_3);
         ?>
 

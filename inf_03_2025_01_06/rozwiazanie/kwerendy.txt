@@ -22,6 +22,6 @@ LIMIT 10;
 SELECT
     pseudonim,
     data_zdobycia,
-    DATEDIFF(CURRENT_DATE, data_zdobycia) AS dni
+    DATEDIFF(CURRENT_DATE(), data_zdobycia) AS dni
 FROM zawodnicy
 WHERE tytul != '';

@@ -1,8 +1,8 @@
 -- 1
 UPDATE wagi
 SET
-    dzien = CURRENT_DATE,
-    czas = CURRENT_TIME
+    dzien = CURRENT_DATE(),
+    czas = CURRENT_TIME()
 WHERE lokalizacje_id IN (2, 3, 4);
 
 
@@ -22,8 +22,8 @@ VALUES (
     5,
     FLOOR(1 + RAND() * 10),
     'DW12345',
-    CURRENT_DATE,
-    CURRENT_TIME
+    CURRENT_DATE(),
+    CURRENT_TIME()
 );
 
 
