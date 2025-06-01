@@ -13,6 +13,7 @@ Zakres tematyczny INF.03 obejmuje między innymi:
 
 | Rok  | Miesiąc  | Wersja | Nazwa          | Język |                                         |                                                            |                                      |
 | ---- | -------- | ------ | -------------- | ----- | --------------------------------------- | ---------------------------------------------------------- | ------------------------------------ |
+| 2025 | Styczeń  | 06     | Cyferki        | JS    | [INF.03-06-25.01-SG](inf_03_2025_01_06) | [Arkusz](inf_03_2025_01_06/inf_03_2025_01_06_SG_kolor.pdf) | [Pliki](inf_03_2025_01_06/pliki.zip) |
 | 2024 | Czerwiec | 02     | Chat           | JS    | [INF.03-02-24.06-SG](inf_03_2024_06_02) | [Arkusz](inf_03_2024_06_02/inf_03_2024_06_02_SG_kolor.pdf) | [Pliki](inf_03_2024_06_02/pliki.zip) |
 | 2024 | Czerwiec | 03     | Stany Rzek     | PHP   | [INF.03-03-24.06-SG](inf_03_2024_06_03) | [Arkusz](inf_03_2024_06_03/inf_03_2024_06_03_SG_kolor.pdf) | [Pliki](inf_03_2024_06_03/pliki.zip) |
 | 2024 | Czerwiec | 04     | Galeria        | PHP   | [INF.03-04-24.06-SG](inf_03_2024_06_04) | [Arkusz](inf_03_2024_06_04/inf_03_2024_06_04_SG_kolor.pdf) | [Pliki](inf_03_2024_06_04/pliki.zip) |
