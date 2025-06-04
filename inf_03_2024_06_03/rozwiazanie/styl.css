@@ -6,7 +6,7 @@ body {
     font-family: Georgia;
 }
 
-header div {
+header>div {
     background-color: navy;
     color: white;
     text-align: center;
@@ -31,21 +31,22 @@ nav {
     text-decoration: underline;
 }
 
-.main-content {
+main,
+aside {
     background-color: azure;
     height: 550px;
     float: left;
 }
 
-.main-content--left {
+main{
     width: 70%;
 }
 
-.main-content--right {
+aside {
     width: 30%;
 }
 
-.main-content--right > img {
+aside>img {
     width: 90%;
 }
 

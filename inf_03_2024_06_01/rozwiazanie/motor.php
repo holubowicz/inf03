@@ -28,7 +28,7 @@ $db = new mysqli("localhost", "root", "", "motory");
                 FROM wycieczki w
                 JOIN zdjecia z ON w.zdjecia_id = z.id";
             $trips_info_result = $db->query($trips_info_query);
-            
+
             while ($trip = $trips_info_result->fetch_assoc()):
                 ?>
                 <dt>

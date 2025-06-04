@@ -6,7 +6,7 @@ body {
     font-family: Tahoma;
 }
 
-.banner {
+header>div {
     background-color: #519657;
     color: white;
     text-align: center;
@@ -14,26 +14,26 @@ body {
     float: left;
 }
 
-.banner--left {
+header>div:first-child {
     width: 70%;
 }
 
-.banner--right {
+header>div:last-child {
     width: 30%;
 }
 
-.main-content {
+main,
+aside {
     background-color: #e1e1e1;
     height: 450px;
     float: left;
 }
 
-.main-content--left,
-.main-content--right {
+aside {
     width: 25%;
 }
 
-.main-content--center {
+main {
     width: 50%;
     overflow: auto;
 }

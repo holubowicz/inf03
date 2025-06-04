@@ -15,7 +15,7 @@ header {
     padding: 10px;
 }
 
-.main-content__1 {
+#main-content-1 {
     background-color: mistyrose;
     height: 300px;
     padding: 10px;
@@ -23,16 +23,18 @@ header {
     border: solid 1px crimson;
 }
 
-.main-content__1 img {
+#main-content-1 img {
     float: left;
     height: 100%;
 }
 
-.main-content__2-3 {
+#main-content-2,
+#main-content-3 {
     clear: left;
 }
 
-.main-content__2-3 article {
+#main-content-2 article,
+#main-content-3 article {
     background-color: snow;
     height: 450px;
     width: 21%;

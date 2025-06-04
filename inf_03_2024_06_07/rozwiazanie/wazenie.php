@@ -14,22 +14,22 @@ $db = new mysqli("localhost", "root", "", "wazenietirow");
 
 <body>
     <header>
-        <div class="banner banner--left">
+        <div>
             <h1>Ważenie pojazdów we Wrocławiu</h1>
         </div>
 
-        <div class="banner banner--right">
+        <div>
             <img src="obraz1.png" alt="waga">
         </div>
     </header>
 
-    <aside class="main-content main-content--left">
+    <aside>
         <h2>Lokalizacje wag</h2>
 
         <ol>
             <?php
-            $query_1 = "SELECT ulica FROM lokalizacje";
-            $streets_result = $db->query($query_1);
+            $streets_query = "SELECT ulica FROM lokalizacje";
+            $streets_result = $db->query($streets_query);
             while ($street = $streets_result->fetch_row()):
                 ?>
                 <li>ulica <?= $street[0] ?></li>
@@ -41,7 +41,7 @@ $db = new mysqli("localhost", "root", "", "wazenietirow");
         <a href="mailto:wazenie@wroclaw.pl">napisz</a>
     </aside>
 
-    <section class="main-content main-content--center">
+    <main>
         <h2>Alerty</h2>
 
         <table>
@@ -54,11 +54,11 @@ $db = new mysqli("localhost", "root", "", "wazenietirow");
             </tr>
 
             <?php
-            $query_2 = "SELECT w.rejestracja, l.ulica, w.waga, w.dzien, w.czas
-                    FROM wagi w
-                    JOIN lokalizacje l ON w.lokalizacje_id = l.id
-                    WHERE w.waga > 5";
-            $alerts_result = $db->query($query_2);
+            $alerts_query = "SELECT w.rejestracja, l.ulica, w.waga, w.dzien, w.czas
+                FROM wagi w
+                JOIN lokalizacje l ON w.lokalizacje_id = l.id
+                WHERE w.waga > 5";
+            $alerts_result = $db->query($alerts_query);
             while ($alert = $alerts_result->fetch_row()):
                 ?>
                 <tr>
@@ -72,17 +72,17 @@ $db = new mysqli("localhost", "root", "", "wazenietirow");
         </table>
 
         <?php
-        $query_3 = "INSERT INTO wagi (lokalizacje_id, waga, rejestracja, dzien, czas)
+        $insert_new_weight_query = "INSERT INTO wagi (lokalizacje_id, waga, rejestracja, dzien, czas)
             VALUES (5, FLOOR(1 + RAND() * 10), 'DW12345', CURRENT_DATE(), CURRENT_TIME())";
-        $db->query($query_3);
+        $db->query($insert_new_weight_query);
         ?>
 
         <script>
             setTimeout(() => location.reload(), 10_000);
         </script>
-    </section>
+    </main>
 
-    <aside class="main-content main-content--right">
+    <aside>
         <img src="obraz2.jpg" alt="tir">
     </aside>
 

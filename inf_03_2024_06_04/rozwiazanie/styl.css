@@ -15,15 +15,14 @@ footer {
     clear: left;
 }
 
-#content__left,
-#content__right {
+aside {
     background-color: navajowhite;
     width: 15%;
     height: 700px;
     float: left;
 }
 
-#content__center {
+main {
     width: 70%;
     height: 700px;
     overflow: scroll;

@@ -17,7 +17,7 @@ $db = new mysqli("localhost", "root", "", "galeria");
         <h1>Zdjęcia</h1>
     </header>
 
-    <aside id="content__left">
+    <aside>
         <h2>Tematy zdjęć</h2>
 
         <ol>
@@ -29,36 +29,36 @@ $db = new mysqli("localhost", "root", "", "galeria");
         </ol>
     </aside>
 
-    <main id="content__center">
+    <main>
         <?php
-        $query_1 = "SELECT z.plik, z.tytul, z.polubienia, a.imie, a.nazwisko
+        $images_query = "SELECT z.plik, z.tytul, z.polubienia, a.imie, a.nazwisko
             FROM zdjecia z
             JOIN autorzy a ON z.autorzy_id = a.id
             ORDER BY a.nazwisko";
-        $images = $db->query($query_1)->fetch_all(MYSQLI_ASSOC);
+        $images_result = $db->query($images_query);
 
-        foreach ($images as $image):
+        while ($image = $images_result->fetch_assoc()):
             ?>
             <article class="gallery-img">
                 <img src="<?= $image['plik'] ?>" alt="zdjęcie">
                 <h3><?= $image['tytul'] ?></h3>
                 <p>
-                    Autor: <?= $image['imie'] ?>&nbsp;<?= $image['nazwisko'] ?>.
+                    Autor: <?= "{$image['imie']} {$image['nazwisko']}" ?>.
                     <?php if ($image['polubienia'] > 40): ?>
                         <br>Wiele osób polubiło ten obraz.
                     <?php endif; ?>
                 </p>
                 <a href="<?= $image['plik'] ?>" download>Pobierz</a>
             </article>
-        <?php endforeach; ?>
+        <?php endwhile; ?>
     </main>
 
-    <aside id="content__right">
+    <aside>
         <h2>Najbardziej lubiane</h2>
 
         <?php
-        $query_2 = "SELECT tytul, plik FROM zdjecia WHERE polubienia >= 100";
-        $most_liked_image = $db->query($query_2)->fetch_row();
+        $most_liked_image_query = "SELECT tytul, plik FROM zdjecia WHERE polubienia >= 100";
+        $most_liked_image = $db->query($most_liked_image_query)->fetch_row();
         ?>
 
         <img src="<?= $most_liked_image[1] ?>" alt="<?= $most_liked_image[0] ?>">
