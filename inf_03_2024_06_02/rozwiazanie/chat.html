@@ -6,6 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat</title>
     <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <header>
+        <h2>Chat</h2>
+    </header>
+
+    <aside>
+        <h3>Chaty</h3>
+
+        <ul>
+            <li>Ogólny</li>
+            <li>
+                Tematyczne
+
+                <ol>
+                    <li>Turystyczny</li>
+                    <li>Żeglarski</li>
+                    <li>Filatelistyczny</li>
+                    <li>Hodowla zwierzątek domowych</li>
+                </ol>
+            </li>
+        </ul>
+
+        <h3>Uczstnicy</h3>
+
+        <p>Jolanta Nowak</p>
+        <img src="Jolka.jpg" alt="Jolanta Nowak">
+
+        <p>Krzysztof Łukasiński</p>
+        <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+    </aside>
+
+    <main>
+        <section id="chat">
+            <div class="chat__message chat__message--jolka">
+                <img src="Jolka.jpg" alt="Jolanta Nowak">
+
+                <p>Cześć idziesz jutro do kina?</p>
+            </div>
+
+            <div class="chat__message chat__message--krzysiek">
+                <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
+
+                <p>Tak! A ty?</p>
+            </div>
+        </section>
+
+        Wpisz wiadomość:
+        <input id="message-input" type="text">
+        <button onclick="handleSendButtonClick()">
+            Wyślij
+        </button>
+
+        <br>
+
+        <button onclick="handleGenerateRandomResponseButtonClick()">
+            Generuj losową odpowiedź
+        </button>
+    </main>
+
+    <footer>
+        <h5>Chat wykonał: 00000000000</h5>
+    </footer>
+
     <script>
         const randomResponses = [
             "Świetnie!",
@@ -75,70 +140,6 @@
             chatMessageElement.scrollIntoView();
         }
     </script>
-</head>
-
-<body>
-    <header>
-        <h2>Chat</h2>
-    </header>
-
-    <aside>
-        <h3>Chaty</h3>
-
-        <ul>
-            <li>Ogólny</li>
-            <li>
-                Tematyczne
-
-                <ol>
-                    <li>Turystyczny</li>
-                    <li>Żeglarski</li>
-                    <li>Filatelistyczny</li>
-                    <li>Hodowla zwierzątek domowych</li>
-                </ol>
-            </li>
-        </ul>
-
-        <h3>Uczstnicy</h3>
-
-        <p>Jolanta Nowak</p>
-        <img src="Jolka.jpg" alt="Jolanta Nowak">
-
-        <p>Krzysztof Łukasiński</p>
-        <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
-    </aside>
-
-    <main>
-        <section id="chat">
-            <div class="chat__message chat__message--jolka">
-                <img src="Jolka.jpg" alt="Jolanta Nowak">
-
-                <p>Cześć idziesz jutro do kina?</p>
-            </div>
-
-            <div class="chat__message chat__message--krzysiek">
-                <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński">
-
-                <p>Tak! A ty?</p>
-            </div>
-        </section>
-
-        Wpisz wiadomość:
-        <input id="message-input" type="text">
-        <button onclick="handleSendButtonClick()">
-            Wyślij
-        </button>
-
-        <br>
-
-        <button onclick="handleGenerateRandomResponseButtonClick()">
-            Generuj losową odpowiedź
-        </button>
-    </main>
-
-    <footer>
-        <h5>Chat wykonał: 00000000000</h5>
-    </footer>
 </body>
 
 </html>
