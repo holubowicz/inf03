@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biuro turystyczne</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <header>
+        <h1>Zwiedzamy Polskę</h1>
+    </header>
+
+    <aside>
+        <button onclick="showPreviousImage()">
+            &lt;
+        </button>
+    </aside>
+
+    <main>
+        <img id="active-image" src="1.jpg" alt="Aktywne zdjęcie">
+    </main>
+
+    <aside>
+        <button onclick="showNextImage()">
+            &gt;
+        </button>
+    </aside>
+
+    <div id="thumbnails">
+        <img src="1.jpg" alt="Gdańsk">
+        <img src="2.jpg" alt="Kraków">
+        <img src="3.jpg" alt="Niedzica">
+        <img src="4.jpg" alt="Pieniny">
+        <img src="5.jpg" alt="Szklarska Poręba">
+        <img src="6.jpg" alt="Tatry">
+        <img src="7.jpg" alt="Wrocław">
+    </div>
+
+    <footer>
+        <h3>Autorem galerii jest:</h3>
+        <p>00000000000</p>
+        <a href="http://pixabay.com" target="_blank">
+            Więcej zdjęć
+        </a>
+    </footer>
+
+    <script>
+        const activeImageElement = document.getElementById("active-image");
+
+        function showPreviousImage() {
+            let imageIndex = parseInt(activeImageElement.getAttribute("src")[0]) - 1;
+
+            if (imageIndex < 1) {
+                imageIndex = 7;
+            }
+
+            activeImageElement.setAttribute("src", imageIndex + ".jpg");
+        }
+
+        function showNextImage() {
+            let imageIndex = parseInt(activeImageElement.getAttribute("src")[0]) + 1;
+
+            if (imageIndex > 7) {
+                imageIndex = 1;
+            }
+
+            activeImageElement.setAttribute("src", imageIndex + ".jpg");
+        }
+    </script>
+</body>
+
+</html>

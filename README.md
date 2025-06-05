@@ -11,18 +11,19 @@ Zakres tematyczny INF.03 obejmuje między innymi:
 
 ## Rozwiązania Egzaminów Praktycznych
 
-| Rok  | Miesiąc  | Wersja | Język | Nazwa          |                             |                                                            |                                            |                                                        |
-| ---- | -------- | :----: | ----- | -------------- | :-------------------------: | :--------------------------------------------------------: | :----------------------------------------: | :----------------------------------------------------: |
-| 2025 | Styczeń  |   06   | JS    | Cyferki        | [Folder](inf_03_2025_01_06) | [Arkusz](inf_03_2025_01_06/inf_03_2025_01_06_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2025_01_06/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2025_01_06/rozwiazanie.zip) |
-| 2024 | Czerwiec |   01   | PHP   | Motocykle      | [Folder](inf_03_2024_06_01) | [Arkusz](inf_03_2024_06_01/inf_03_2024_06_01_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_01/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_01/rozwiazanie.zip) |
-| 2024 | Czerwiec |   02   | JS    | Chat           | [Folder](inf_03_2024_06_02) | [Arkusz](inf_03_2024_06_02/inf_03_2024_06_02_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_02/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_02/rozwiazanie.zip) |
-| 2024 | Czerwiec |   03   | PHP   | Stany Rzek     | [Folder](inf_03_2024_06_03) | [Arkusz](inf_03_2024_06_03/inf_03_2024_06_03_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_03/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_03/rozwiazanie.zip) |
-| 2024 | Czerwiec |   04   | PHP   | Galeria        | [Folder](inf_03_2024_06_04) | [Arkusz](inf_03_2024_06_04/inf_03_2024_06_04_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_04/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_04/rozwiazanie.zip) |
-| 2024 | Czerwiec |   05   | PHP   | Samochody      | [Folder](inf_03_2024_06_05) | [Arkusz](inf_03_2024_06_05/inf_03_2024_06_05_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_05/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_05/rozwiazanie.zip) |
-| 2024 | Czerwiec |   06   | JS    | Konferencja    | [Folder](inf_03_2024_06_06) | [Arkusz](inf_03_2024_06_06/inf_03_2024_06_06_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_06/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_06/rozwiazanie.zip) |
-| 2024 | Czerwiec |   07   | PHP   | Waga Pojazdów  | [Folder](inf_03_2024_06_07) | [Arkusz](inf_03_2024_06_07/inf_03_2024_06_07_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_07/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_07/rozwiazanie.zip) |
-| 2024 | Czerwiec |   08   | JS    | Rejestracja    | [Folder](inf_03_2024_06_08) | [Arkusz](inf_03_2024_06_08/inf_03_2024_06_08_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_08/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_08/rozwiazanie.zip) |
-| 2024 | Czerwiec |   11   | PHP   | Świnki Morskie | [Folder](inf_03_2024_06_11) | [Arkusz](inf_03_2024_06_11/inf_03_2024_06_11_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_11/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_11/rozwiazanie.zip) |
+| Rok  | Miesiąc  | Wersja | Język | Nazwa             |                             |                                                            |                                            |                                                        |
+| ---- | -------- | :----: | ----- | ----------------- | :-------------------------: | :--------------------------------------------------------: | :----------------------------------------: | :----------------------------------------------------: |
+| 2025 | Styczeń  |   06   | JS    | Cyferki           | [Folder](inf_03_2025_01_06) | [Arkusz](inf_03_2025_01_06/inf_03_2025_01_06_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2025_01_06/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2025_01_06/rozwiazanie.zip) |
+| 2024 | Czerwiec |   01   | PHP   | Motocykle         | [Folder](inf_03_2024_06_01) | [Arkusz](inf_03_2024_06_01/inf_03_2024_06_01_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_01/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_01/rozwiazanie.zip) |
+| 2024 | Czerwiec |   02   | JS    | Chat              | [Folder](inf_03_2024_06_02) | [Arkusz](inf_03_2024_06_02/inf_03_2024_06_02_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_02/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_02/rozwiazanie.zip) |
+| 2024 | Czerwiec |   03   | PHP   | Stany Rzek        | [Folder](inf_03_2024_06_03) | [Arkusz](inf_03_2024_06_03/inf_03_2024_06_03_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_03/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_03/rozwiazanie.zip) |
+| 2024 | Czerwiec |   04   | PHP   | Galeria           | [Folder](inf_03_2024_06_04) | [Arkusz](inf_03_2024_06_04/inf_03_2024_06_04_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_04/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_04/rozwiazanie.zip) |
+| 2024 | Czerwiec |   05   | PHP   | Samochody         | [Folder](inf_03_2024_06_05) | [Arkusz](inf_03_2024_06_05/inf_03_2024_06_05_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_05/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_05/rozwiazanie.zip) |
+| 2024 | Czerwiec |   06   | JS    | Konferencja       | [Folder](inf_03_2024_06_06) | [Arkusz](inf_03_2024_06_06/inf_03_2024_06_06_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_06/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_06/rozwiazanie.zip) |
+| 2024 | Czerwiec |   07   | PHP   | Waga Pojazdów     | [Folder](inf_03_2024_06_07) | [Arkusz](inf_03_2024_06_07/inf_03_2024_06_07_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_07/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_07/rozwiazanie.zip) |
+| 2024 | Czerwiec |   08   | JS    | Rejestracja       | [Folder](inf_03_2024_06_08) | [Arkusz](inf_03_2024_06_08/inf_03_2024_06_08_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_08/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_08/rozwiazanie.zip) |
+| 2024 | Czerwiec |   09   | JS    | Galeria Animowana | [Folder](inf_03_2024_06_09) | [Arkusz](inf_03_2024_06_09/inf_03_2024_06_09_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_09/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_09/rozwiazanie.zip) |
+| 2024 | Czerwiec |   11   | PHP   | Świnki Morskie    | [Folder](inf_03_2024_06_11) | [Arkusz](inf_03_2024_06_11/inf_03_2024_06_11_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_11/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_11/rozwiazanie.zip) |
 
 ---
 

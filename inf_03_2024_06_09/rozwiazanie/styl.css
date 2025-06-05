@@ -1,0 +1,84 @@
+* {
+    font-family: Georgia;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    background-color: maroon;
+    text-align: center;
+    padding: 2px;
+}
+
+aside,
+main {
+    background-color: lightsalmon;
+    height: 527px;
+    float: left;
+}
+
+aside {
+    width: 15%;
+}
+
+main {
+    width: 70%;
+}
+
+#thumbnails {
+    background-color: maroon;
+    height: 70px;
+    clear: left;
+}
+
+aside>button {
+    background-color: lightsalmon;
+    color: maroon;
+    border: none;
+    font-size: 400%;
+    display: block;
+    margin: auto;
+    padding-top: 210px;
+}
+
+#thumbnails>img {
+    height: 70px;
+    animation-name: thumbnail-animation;
+    animation-duration: 4s;
+}
+
+main>img {
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+}
+
+main>img:hover {
+    animation-name: active-image-animation;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes thumbnail-animation {
+    from {
+        padding-left: 50px;
+    }
+
+    to {
+        padding-left: 0px;
+    }
+}
+
+@keyframes active-image-animation {
+    from {
+        scale: 100%;
+    }
+
+    to {
+        scale: 120%;
+    }
+}
