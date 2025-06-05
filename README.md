@@ -23,6 +23,7 @@ Zakres tematyczny INF.03 obejmuje między innymi:
 | 2024 | Czerwiec |   07   | PHP   | Waga Pojazdów     | [Folder](inf_03_2024_06_07) | [Arkusz](inf_03_2024_06_07/inf_03_2024_06_07_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_07/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_07/rozwiazanie.zip) |
 | 2024 | Czerwiec |   08   | JS    | Rejestracja       | [Folder](inf_03_2024_06_08) | [Arkusz](inf_03_2024_06_08/inf_03_2024_06_08_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_08/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_08/rozwiazanie.zip) |
 | 2024 | Czerwiec |   09   | JS    | Galeria Animowana | [Folder](inf_03_2024_06_09) | [Arkusz](inf_03_2024_06_09/inf_03_2024_06_09_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_09/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_09/rozwiazanie.zip) |
+| 2024 | Czerwiec |   10   | JS    | Kadra Firmy       | [Folder](inf_03_2024_06_10) | [Arkusz](inf_03_2024_06_10/inf_03_2024_06_10_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_10/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_10/rozwiazanie.zip) |
 | 2024 | Czerwiec |   11   | PHP   | Świnki Morskie    | [Folder](inf_03_2024_06_11) | [Arkusz](inf_03_2024_06_11/inf_03_2024_06_11_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_11/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_11/rozwiazanie.zip) |
 
 ---
