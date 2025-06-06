@@ -36,12 +36,12 @@ $db = new mysqli("localhost", "root", "", "hodowla");
 
         <ol>
             <?php
-            $races_query = "SELECT rasa FROM rasy";
-            $races_result = $db->query($races_query);
+            $breeds_query = "SELECT rasa FROM rasy";
+            $breeds_result = $db->query($breeds_query);
 
-            while ($race = $races_result->fetch_row()):
+            while ($breed = $breeds_result->fetch_row()):
                 ?>
-                <li><?= $race[0] ?></li>
+                <li><?= $breed[0] ?></li>
             <?php endwhile; ?>
         </ol>
     </aside>
