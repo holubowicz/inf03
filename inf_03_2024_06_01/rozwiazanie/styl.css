@@ -1,9 +1,9 @@
-body {
-    margin: 0;
-}
-
 * {
     font-family: Verdana;
+}
+
+body {
+    margin: 0;
 }
 
 img[src="motor.png"] {
