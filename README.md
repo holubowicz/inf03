@@ -25,6 +25,7 @@ Zakres tematyczny INF.03 obejmuje między innymi:
 | 2024 | Czerwiec |   09   | JS    | Galeria Animowana | [Folder](inf_03_2024_06_09) | [Arkusz](inf_03_2024_06_09/inf_03_2024_06_09_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_09/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_09/rozwiazanie.zip) |
 | 2024 | Czerwiec |   10   | JS    | Kadra Firmy       | [Folder](inf_03_2024_06_10) | [Arkusz](inf_03_2024_06_10/inf_03_2024_06_10_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_10/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_10/rozwiazanie.zip) |
 | 2024 | Czerwiec |   11   | PHP   | Świnki Morskie    | [Folder](inf_03_2024_06_11) | [Arkusz](inf_03_2024_06_11/inf_03_2024_06_11_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_11/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_11/rozwiazanie.zip) |
+| 2024 | Czerwiec |   12   | JS    | Transformacje     | [Folder](inf_03_2024_06_12) | [Arkusz](inf_03_2024_06_12/inf_03_2024_06_12_SG_kolor.pdf) | [Pliki (ZIP)](inf_03_2024_06_12/pliki.zip) | [Rozwiązanie (ZIP)](inf_03_2024_06_12/rozwiazanie.zip) |
 
 ---
 

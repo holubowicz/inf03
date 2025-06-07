@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <header>
+        <h2>Efekty na obrazach</h2>
+    </header>
+
+    <section>
+        <img id="bee-image__img" src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku"><br>
+
+        <input id="bee-image__radio--blur" type="radio" name="bee-image__radio">
+        Blur<br>
+
+        <input id="bee-image__radio--sepia" type="radio" name="bee-image__radio">
+        Sepia<br>
+
+        <input id="bee-image__radio--invert" type="radio" name="bee-image__radio">
+        Negatyw<br>
+
+        <button onclick="handleBeeImageButtonOnClick()">
+            Zastosuj
+        </button>
+    </section>
+
+    <section>
+        <img id="orange-image__img" src="pomarancza.jpg" alt="drzewo pomarańczy"><br>
+
+        <button onclick="applyOrangeImageColorsFilter()">
+            Kolorowy
+        </button>
+
+        <button onclick="applyOrangeImageBlackAndWhiteFilter()">
+            Czarno-biały
+        </button>
+    </section>
+
+    <section>
+        <img id="fruits-image__img" src="owoce.jpg" alt="Kosz pełen owoców"><br>
+
+        <input id="fruits-image__range" type="range" min="0" max="100" value="100"><br>
+
+        <button onclick="handleFruitsImageButtonOnClick()">
+            Zastosuj
+        </button>
+    </section>
+
+    <section>
+        <img id="turtle-image__img" src="zolw.jpg" alt="Żółw w wodzie"><br>
+
+        <input id="turtle-image__range" type="range" min="0" max="250"><br>
+
+        <button onclick="handleTurtleImageButtonOnClick()">
+            Zastosuj
+        </button>
+    </section>
+
+    <footer>
+        <p>
+            <a href="http://www.css.com/" target="_blank">
+                Zobacz inne efekty obrazu
+            </a>
+        </p>
+
+        <p>Stronę wykonał: 00000000000</p>
+    </footer>
+
+    <script src="skrypt.js"></script>
+</body>
+
+</html>
