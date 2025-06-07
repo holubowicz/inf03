@@ -25,11 +25,6 @@ function handleCalculateButtonOnClick() {
         squareMeterCost = 18;
     }
 
-    if (squareMeterCost === 0) {
-        costResultElement.textContent = "Wprowadź poprawne dane.";
-        return;
-    }
-
     const area = Number(widthValue) * Number(lengthValue);
     const cost = area * squareMeterCost;
 
