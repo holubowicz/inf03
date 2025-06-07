@@ -20,7 +20,7 @@ function showRegisterSection(sectionIndex) {
 }
 
 function handleInputOnFocusOut() {
-    let width = parseInt(progressStateElement.style.width.slice(0, -1)) || 4;
+    let width = Number(progressStateElement.style.width.slice(0, -1)) || 4;
 
     if (width < 100) {
         width += 12;

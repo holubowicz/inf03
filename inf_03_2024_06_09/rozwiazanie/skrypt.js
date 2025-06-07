@@ -1,7 +1,7 @@
 const activeImageElement = document.getElementById("active-image");
 
 function showPreviousImage() {
-    let imageIndex = parseInt(activeImageElement.getAttribute("src")[0]) - 1;
+    let imageIndex = Number(activeImageElement.getAttribute("src")[0]) - 1;
 
     if (imageIndex < 1) {
         imageIndex = 7;
@@ -11,7 +11,7 @@ function showPreviousImage() {
 }
 
 function showNextImage() {
-    let imageIndex = parseInt(activeImageElement.getAttribute("src")[0]) + 1;
+    let imageIndex = Number(activeImageElement.getAttribute("src")[0]) + 1;
 
     if (imageIndex > 7) {
         imageIndex = 1;

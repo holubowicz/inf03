@@ -7,7 +7,7 @@ function handleConvertButtonOnClick() {
         return;
     }
 
-    const inputNumber = parseFloat(inputString);
+    const inputNumber = Number(inputString);
     const binary = convertDecimalToBinary(inputNumber);
 
     const formattedBinary = binary.split("")
