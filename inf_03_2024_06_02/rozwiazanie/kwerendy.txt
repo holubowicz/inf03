@@ -29,11 +29,11 @@ WHERE u.imie LIKE 'J%';
 
 
 -- 4
-CREATE USER uczestnik@localhost
+CREATE USER 'uczestnik'@'localhost'
 IDENTIFIED BY 'Ucz123&';
 
 
 -- 5
 GRANT SELECT, UPDATE
 ON chat.uczestnicy
-TO uczestnik@localhost;
+TO 'uczestnik'@'localhost';
