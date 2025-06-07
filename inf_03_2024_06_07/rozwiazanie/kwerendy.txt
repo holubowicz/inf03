@@ -20,7 +20,7 @@ INSERT INTO wagi (
 )
 VALUES (
     5,
-    FLOOR(1 + RAND() * 10),
+    FLOOR(RAND() * 10 + 1),
     'DW12345',
     CURRENT_DATE(),
     CURRENT_TIME()
